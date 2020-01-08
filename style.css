@@ -17,6 +17,8 @@ body {
     margin: auto;
 }
 
+/* header */
+
 .page-header {
     background: linear-gradient(to bottom, #fcfcfc 50%, #e2e2e2);
 }
@@ -65,4 +67,49 @@ body {
 
 .page-header__text {
     margin: 0px;
+}
+
+/* main */
+
+/* form */
+
+.form-inner__title {
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 23px;
+    color: #565555;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="search"] {
+    width: 450px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: left;
+    outline: none;
+    text-decoration: none;
+    border-color: 2px  #000000;
+}
+
+input[type="submit"] {
+    width: 210px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 23px;
+    color: #ffffff;
+    background-color: #ff7d00;
+    outline: none;
+    margin-left: 30px;
+    text-decoration: none;
+    border: none;
 }
