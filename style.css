@@ -113,3 +113,51 @@ input[type="submit"] {
     text-decoration: none;
     border: none;
 }
+
+/* main - list with img */
+
+.photo-page {
+    padding-top: 80px;
+}
+
+.photo-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo-page__inner {
+    width: 203px;
+    padding-right: 50px;
+}
+
+.photo-page__list {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.photo-page__item:not(:first-of-type) {
+    border-radius: 12px;
+
+    background-color: #b1aeae;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.photo-page__container:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
