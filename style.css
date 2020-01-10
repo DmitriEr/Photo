@@ -161,3 +161,13 @@ input[type="submit"] {
     flex-wrap: nowrap;
 }
 
+/* footer */
+
+.page-footer__text {
+    text-align: right;
+    font-size: 17px;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #8b8a8a;
+    padding: 50px 0px;
+}
