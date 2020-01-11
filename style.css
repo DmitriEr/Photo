@@ -38,6 +38,9 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .page-header__title {
@@ -51,10 +54,15 @@ body {
     color: #ff7700;
 }
 
+.page-header__item {
+    padding-top: 50px;
+    padding-bottom: 42px;
+    border-bottom: solid 8px transparent;
+}
+
 .page-header__item:hover {
     background: linear-gradient(to bottom, #fbfafa, #cdc5c5);
-
-    border-bottom: solid 8px #ff7d00;
+    border-bottom: solid 8px #ff7d00; 
 }
 
 .page-header__item  {
